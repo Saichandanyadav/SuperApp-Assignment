@@ -4,18 +4,14 @@ A modern entertainment dashboard built with **Next.js**, **TypeScript**, **Tailw
 
 ## 🚀 Live Demo
 
-Add your deployed URL here:
-
 ```bash
-https://your-app.vercel.app
+https://super-app-assignment.vercel.app/
 ```
 
 ## 📂 GitHub Repository
 
-Add your repository URL here:
-
 ```bash
-https://github.com/your-username/super-app
+https://github.com/Saichandanyadav/SuperApp-Assignment
 ```
 
 ---
@@ -138,7 +134,7 @@ The project focuses on clean architecture, state management, performance optimiz
 
 * OpenWeatherMap API
 * News API
-* OMDB API
+* OMDb API
 
 ### Storage
 
@@ -167,24 +163,16 @@ src/
 │   ├── widgets/
 │   └── movies/
 │
-├── features/
-│   ├── auth/
-│   ├── categories/
-│   ├── dashboard/
-│   └── movies/
-│
 ├── store/
-│   ├── userStore.ts
-│   ├── categoryStore.ts
-│   ├── notesStore.ts
-│   └── timerStore.ts
+│   ├── useUserStore.ts
+│   ├── useCategoryStore.ts
+│   ├── useNotesStore.ts
+│   └── useTimerStore.ts
 │
 ├── hooks/
 ├── services/
 ├── types/
 ├── utils/
-├── constants/
-├── providers/
 └── lib/
 ```
 
@@ -192,41 +180,23 @@ src/
 
 ## 🔄 Application Flow
 
-### Step 1
-
+```text
 User Registration
-
-↓
-
-### Step 2
-
+        ↓
 Category Selection
-
 (Minimum 3 Categories)
-
-↓
-
-### Step 3
-
+        ↓
 Dashboard
-
-* Profile
-* Weather
-* Notes
-* Timer
-* News
-
-↓
-
-### Step 4
-
+ ├─ Profile
+ ├─ Weather
+ ├─ Notes
+ ├─ Timer
+ └─ News
+        ↓
 Movie Discovery
-
-↓
-
-### Step 5
-
+        ↓
 Movie Details Modal
+```
 
 ---
 
@@ -236,9 +206,7 @@ Create a `.env.local` file in the root directory.
 
 ```env
 NEXT_PUBLIC_WEATHER_API_KEY=your_weather_api_key
-
 NEXT_PUBLIC_NEWS_API_KEY=your_news_api_key
-
 NEXT_PUBLIC_OMDB_API_KEY=your_omdb_api_key
 ```
 
@@ -249,25 +217,19 @@ NEXT_PUBLIC_OMDB_API_KEY=your_omdb_api_key
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/super-app.git
+git clone https://github.com/Saichandanyadav/SuperApp-Assignment.git
 ```
 
-Navigate to project directory:
+Navigate to the project directory:
 
 ```bash
-cd super-app
+cd SuperApp-Assignment
 ```
 
 Install dependencies:
 
 ```bash
 npm install
-```
-
-or
-
-```bash
-yarn install
 ```
 
 ---
@@ -294,7 +256,7 @@ http://localhost:3000
 npm run build
 ```
 
-Run production build:
+Run the production server:
 
 ```bash
 npm start
@@ -304,7 +266,7 @@ npm start
 
 ## 📱 Responsive Design
 
-The application is fully responsive and optimized for:
+Optimized for:
 
 * Mobile Devices
 * Tablets
@@ -318,18 +280,13 @@ The application is fully responsive and optimized for:
 Implemented:
 
 * Next.js Image Optimization
-* Dynamic Imports
 * Lazy Loading
 * Zustand State Persistence
 * Component Memoization
 * Efficient Rendering
 * Code Splitting
 
-Target Lighthouse Score:
-
-```bash
-90+
-```
+**Target Lighthouse Score:** 90+
 
 ---
 
@@ -360,7 +317,7 @@ Implemented:
 
 ## 📸 Screenshots
 
-Add screenshots of:
+Add screenshots for:
 
 * Registration Page
 * Category Selection Page
@@ -374,33 +331,46 @@ Add screenshots of:
 
 ## 🌟 Future Improvements
 
-* User Authentication with Backend
+* Backend Authentication
 * Dark Mode Support
 * Bookmark Movies
 * Personalized Recommendations
 * Multi-language Support
-* PWA Support
+* Progressive Web App (PWA)
 * Advanced Search & Filters
 
 ---
 
 ## 👨‍💻 Author
 
-Sai Chandan Gundaboina
+**Sai Chandan Gundaboina**
 
 Frontend Developer
+
+### Connect With Me
+
+* GitHub: https://github.com/Saichandanyadav
+* LinkedIn: https://www.linkedin.com/in/saichandanyadav/
+
+### Skills
 
 * React.js
 * Next.js
 * TypeScript
 * Node.js
 
-GitHub: https://github.com/your-username
+---
 
-LinkedIn: https://linkedin.com/in/your-profile
+## 🚀 Deployment
+
+Live Application:
+
+```bash
+https://super-app-assignment.vercel.app/
+```
 
 ---
 
 ## 📄 License
 
-This project was created as part of a Frontend Developer technical assessment and is intended for educational and evaluation purposes.
+This project was created as part of a Frontend Developer Technical Assessment and is intended for educational and evaluation purposes.
